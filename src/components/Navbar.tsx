@@ -5,19 +5,19 @@ import {BsYoutube, BsCameraVideo, BsBell} from 'react-icons/bs'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {IoAppsSharp} from 'react-icons/io5'
 import {Link} from 'react-router-dom'
-import {logo3} from '../assets'
+import {logo4} from '../assets'
 
 function Navbar() {
   return (
-<div className="flex justify-between items-center  px-14 h-14 border-b border-[#3f3f3f] opacity-95 sticky top-0 z-50">
+<div className="flex justify-between items-center  px-14 h-14 opacity-95 sticky top-0 z-50">
       <div className="flex gap-8 items-center text-2xl">
+    
         <div>
           <GiHamburgerMenu />
         </div>
         <Link to="/">
           <div className="flex gap-1 items-center justify-center">
-            <BsYoutube className="text-3xl text-red-600" />
-            <span className="text-xl font-medium">BB</span>
+          {/* <img src={logo4} height={46} width={46}/> */}
           </div>
         </Link>
       </div>
@@ -55,7 +55,7 @@ function Navbar() {
         <IoAppsSharp />
         <div className="relative">
           <BsBell />
-          <span className="absolute bottom-2 left-2 text-xs bg-red-600 rounded-full px-1">
+          <span className="absolute bottom-2 text-[#fff] left-2 text-xs bg-red-600 rounded-full px-1">
             9+
           </span>
         </div>
