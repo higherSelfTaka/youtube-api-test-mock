@@ -1,0 +1,5 @@
+export {default as logo} from './logo.png'
+export {default as logo2} from './logo2.png'
+export {default as logo3} from './logo3.png'
+export {default as logo4} from './logo4.png'
+export {default as logo5} from './logo5.png'
